@@ -59,7 +59,8 @@ label {
 	display:block;
 }
 form {
-	width:50%;
+	display:none;
+	width:70%;
 	float:right;
 	margin:1em;
 }
@@ -75,6 +76,7 @@ input {
 	background:#666;
 	padding:1em;
 	margin:.25em 0;
+	width:70%;
 }
 form > div::after {
 	display:table;
@@ -89,6 +91,10 @@ button {
   background: #613826;
   text-align: left;
   font:inherit;
+}
+button:disabled {
+  color:#999;
+  background: #666;
 }
 form > button {
 	float:right;
