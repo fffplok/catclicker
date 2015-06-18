@@ -1,0 +1,95 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	font-family:arial, sans-serif;
+	font-size:14px;
+	background-color:#333;
+}
+section {
+	position:relative;
+	width:75%;
+	margin:auto;
+}
+img {
+	width:100%;
+}
+ul {
+	position:absolute;
+	list-style-type: none;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align: center;
+	background-color:rgba(255,255,255,.8);
+}
+li {
+	display:inline-block;
+	margin:0;
+	padding:1em;
+	cursor:pointer;
+}
+li.selected {
+	background-color:#feb;
+}
+.container {
+	display:none;
+}
+.foot > span {
+	display:table-cell;
+	padding:1em;
+	bottom:100%;
+	border:none;
+}
+.count {
+	text-align: right;
+}
+.foot {
+	display:table;
+	position:absolute;
+	bottom:0;
+	margin:0;
+	width:100%;
+	color:#fff;
+	background-color:rgba(0,0,0,.8);
+	border:none;
+}
+/**** 6 stuff ****/
+label {
+	display:block;
+}
+form {
+	width:50%;
+	float:right;
+	margin:1em;
+}
+label {
+	padding:1em;
+	margin:.25em 0;
+	float:left;
+	color:#fff;
+}
+input {
+	float:right;
+	border:none;
+	background:#666;
+	padding:1em;
+	margin:.25em 0;
+}
+form > div::after {
+	display:table;
+	clear:both;
+	content:'';
+}
+button {
+  border:none;
+  padding:1em;
+  margin: 1em .25em;
+  color:#fff;
+  background: #613826;
+  text-align: left;
+  font:inherit;
+}
+form > button {
+	float:right;
+}
